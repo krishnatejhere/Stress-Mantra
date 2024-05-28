@@ -1,0 +1,123 @@
+@font-face {
+    font-family: sanskrit;
+    src: url("../fonts/SamarkanNormal-Gg5D.ttf");
+    /* Add font-display for font loading behavior */
+    font-display: swap;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    background: url(../img/stress3.jpg) no-repeat ;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 12vh;
+    background-color: #598600a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    backdrop-filter: blur(5px);
+}
+
+.container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-left {
+    width: 30%;
+    justify-content: start;
+    gap: 10px;
+}
+
+.navbar-right {
+    width: 20%;
+    justify-content: end;
+    gap: 20px;
+}
+
+#logo {
+    border-radius: 50%;
+}
+
+.title {
+    font-family: sanskrit, sans-serif; /* Add a fallback font */
+    font-size: 2.5em; /* Use relative units for better responsiveness */
+    color: #ff8400;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar-right a:hover {
+    color: #ff8400bc;
+    text-decoration: underline;
+}
+
+.hero-content{
+    background: url("../img/stress3.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.hero-text p{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+
+}
+
+.row{
+    margin: 0;
+}
+
+#uname, #pwd{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f1f3ff;
+    box-shadow: 0 2px 3px #0e0e0e;    
+    margin: 5px 0;
+}
+
+#uname, #pwd:active{
+    box-shadow: 0 3px 3.5px #0e0e0e;
+}
+
+#login-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 3px #0e0e0e;    
+    margin: 5px 0;
+}
