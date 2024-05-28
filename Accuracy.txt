@@ -1,0 +1,8 @@
+Human Stress Detection Based on Sleeping Habits using machine learning
+
+Algorithm / Model Used: Random Forest Classifier.
+
+Accuracy Train score: 100% and Test score: 97%.
+
+
+
